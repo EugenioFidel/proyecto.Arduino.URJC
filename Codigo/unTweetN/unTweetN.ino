@@ -21,7 +21,7 @@
    byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };                    //mac para la placa Arduino
    byte ipConection[]  = {FBYTE,SBYTE,TBYTE,FRBYTE};                       //IP para la placa Arduino
    IPAddress myDns(8,8,8,8);                                               //Servidor DNS, establecemos la dirección de DNS's de google.com     
-   Twitter twitter("3095700296-qHmjpweAY2Q2p3pxIUEU49QmJTy6ExXuFXetc27");  //Token del que nos provee Twitter para identificarnos como usuarios
+   Twitter twitter("<<Tu token aquí>>");				   //Token del que nos provee Twitter para identificarnos como usuarios
    SOCKET pingSocket = 0;                                                  //socken para establecer comunicación en la LAN
    char buffer [64];                                                       //un array de caracteres para envio de mensajes a la consola Serie
    ICMPPing ping(pingSocket, (uint16_t)random(0, 255));                    //objeto de la clase ICMPPing para hacer pings en la red local
